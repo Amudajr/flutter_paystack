@@ -3,8 +3,11 @@ description: A Flutter plugin for making payments via Paystack Payment Gateway. 
 version: 1.0.7
 homepage: https://github.com/wilburt/flutter_paystack
 
+environment:
+  sdk: ">=2.9.0 <4.0.0"
+
 dependencies:
-  flutter:
+  flutter: 
     sdk: flutter
   http: ^0.13.5
   intl: ^0.17.0
